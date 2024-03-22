@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    /* La font de tot el codi que estiga dins del body */ 
+ }
+.imatge_inici {    
+    text-align: center;
+    /* Pose la imatge inicial alineada al centre */ 
+  }
+
+.inicio {
+    margin: 0 10% 0 10%;
+    /* Li pose que no te marge ni a la part superior ni a la part inferior i un 10% als costats */
+}
+
+.cuerpo {
+    margin: 0 8% 0 8%;
+    /* El mateix que en el text del inici, pero ara este s'aplica a les imatges i en conter de ser de un 10% es d'un 8%*/
+}
+
+a img {
+    padding: 5%;
+    width: 90%;
+    /* Li pose l'amplaria i el borde a tot el codi que siga un <a> o una imatge */ 
+}
+
+.c1, .c2, .c3 {
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    /* Aixi faig que les imatges de les 3 columnes estiguen al centre de la pagina web amb el seu tamany  de 33.3% per a que capiguen sense problema totes les imatges alhora de fer menuda la pagina*/ 
+ } 
+ .final {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.4em;
+    /* Les propietats per al text del final */ 
+ }
+ 
+ @media only screen and (max-width: 620px){
+  .c1, .c2, .c3 {
+    width: 100%;
+    /* li pose a les 3 columnes que siguen responsives amb un maxim d'amplaria de 620px */ 
+  }
+}
